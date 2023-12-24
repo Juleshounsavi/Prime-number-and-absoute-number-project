@@ -5,8 +5,6 @@ def absolute_value(x):
     its absolute value will be -x, but if x is greater than or equal to 0 then its absolute value will be the x itself.
     """
     if x<0:
-        abs_l = -x
-        return abs_l
+        return -x
     else:
-        abs_r = x
-        return abs_r
+        return x
